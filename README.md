@@ -9,8 +9,17 @@ We apply the following techniques:
 - Autoencoder
 - Autoencoder + Triplet Loss
 
-You can try the code directly on **Google Colab**:  
-📎 [Open in Colab](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/isingclassification2.py)
+<p align="center">
+  <img src="images/spin_example.png" alt="Spin configuration example" width="400"/>
+  <img src="images/triplet_tsne.png" alt="t-SNE of triplet Loss latent space" width="250"/>
+</p>
+
+---
+
+## Try it in Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/Hiromu-USHIHARA/IsingClassification2unsupervised/blob/main/demo.ipynb)
 
 ---
 
