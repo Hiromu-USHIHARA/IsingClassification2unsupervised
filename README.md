@@ -10,8 +10,8 @@ We apply the following techniques:
 - Autoencoder + Triplet Loss
 
 <p align="center">
-  <img src="images/spin_example.png" alt="Spin configuration example" width="400"/>
-  <img src="images/triplet_tsne.png" alt="t-SNE of triplet Loss latent space" width="250"/>
+  <img src="images/spin_example.png" alt="Spin configuration example" width="300"/>
+  <img src="images/triplet_tsne.png" alt="t-SNE of triplet Loss latent space" width="300"/>
 </p>
 
 ---
