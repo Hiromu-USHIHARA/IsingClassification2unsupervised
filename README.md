@@ -1,6 +1,6 @@
 # Phase Classification of 2D Ising Model using Machine Learning
 
-This repository explores unsupervised and weakly supervised machine learning techniques to classify the phases (ordered/disordered) of the **2D Ising model** from spin configurations.
+This project explores unsupervised and weakly supervised machine learning techniques to classify the phases (ordered/disordered) of the **2D Ising model** from spin configurations.
 
 We apply the following techniques:
 
