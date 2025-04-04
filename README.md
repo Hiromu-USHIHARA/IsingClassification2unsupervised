@@ -1,6 +1,7 @@
 # Phase Classification of 2D Ising Model using Machine Learning
 
 This project explores unsupervised and weakly supervised machine learning techniques to classify the phases (ordered/disordered) of the **2D Ising model** from spin configurations.
+For a supervised learning technique, please see [IsingClassification](https://github.com/Hiromu-USHIHARA/IsingClassification.git).
 
 We apply the following techniques:
 
@@ -86,43 +87,14 @@ We use **Triplet Loss** with weak supervision (only similar/dissimilar info) to 
 
 ---
 
-## How to Run
+## Technologies Used
 
-### 1. Requirements
-
-Install required Python packages:
-
-```bash
-pip install numpy matplotlib scikit-learn torch tqdm
-```
-
-### 2. Run the script
-
-```bash
-python isingclassification2.py
-```
+- Python (NumPy, Matplotlib)
+- scikit-learn / TensorFlow / Keras
+- Google Colab
 
 ---
 
-## Project Structure
+## Notes
 
-```
-.
-├── isingclassification2.py      # Main script
-├── /images                      # Saved result images
-└── README.md
-```
-
----
-
-## Acknowledgments
-
-Inspired by:
-
-- [Hiromu-USHIHARA/IsingClassification](https://github.com/Hiromu-USHIHARA/IsingClassification)
-
----
-
-## License
-
-This project is licensed under the MIT License.
+- Created by Ushihara as a side project for learning and exploration.
