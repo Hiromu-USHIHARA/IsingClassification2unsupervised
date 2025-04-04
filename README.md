@@ -68,6 +68,7 @@ We train a basic **Autoencoder** to compress spin configurations into a 2D laten
 | ![AE latent 1](images/autoencoder_latent1.png) | ![AE latent 2](images/autoencoder_latent2.png) |
 
 - Blue: disordered, Red: ordered
+- The right figure shows the result with an extended dataset.
 - The latent space partially separates the phases.
 
 ---
