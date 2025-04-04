@@ -76,7 +76,7 @@ We train a basic **Autoencoder** to compress spin configurations into a 2D laten
 
 ## Triplet Loss (Weak Supervision)
 
-We use **Triplet Loss** with weak supervision (only similar/dissimilar info) to improve feature learning.
+We use **Triplet Loss** with weak supervision (only similar/dissimilar info) to take into account the spin-flip symmetry.
 
 | Triplet Loss Latent Space | t-SNE of Triplet Loss Latent Space |
 |:--:|:--:|
