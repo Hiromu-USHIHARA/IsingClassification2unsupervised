@@ -23,6 +23,17 @@ https://colab.research.google.com/github/Hiromu-USHIHARA/IsingClassification2uns
 
 ---
 
+## Repository Contents
+
+| File | Description |
+|------|-------------|
+| `isingclassification2.py` | Contains Ising model simulation (Metropolis method) and model definition |
+| `demo.ipynb` | Google Colab-compatible notebook for demonstration |
+| `images/` | Sample spin images and output graphs |
+| `requirements.txt` | Library dependencies (not needed in Colab) |
+
+---
+
 ## PCA (Baseline)
 
 We begin with **Principal Component Analysis (PCA)** as a linear baseline.
