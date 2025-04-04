@@ -34,35 +34,34 @@ https://colab.research.google.com/github/Hiromu-USHIHARA/IsingClassification2uns
 
 ---
 
-## PCA (Baseline)
+## PCA
 
-We begin with **Principal Component Analysis (PCA)** as a linear baseline.
+We begin with **Principal Component Analysis (PCA)**.
 
 | PCA of 2D Ising Configuration |
 |:--:|
 | ![PCA](images/pca.png) |
 
 - PCA shows weak separation between ordered (red) and disordered (blue) phases.
-- Nonlinear methods perform significantly better.
 
 ---
 
 ## t-SNE Visualization
 
-We then use **t-SNE** to embed the high-dimensional spin configuration into a 2D space.
+We then use **t-distributed Stochastic Neighbor Embedding (t-SNE)** to embed the high-dimensional spin configuration into a 2D space.
 
 | True label (1: ordered, 0: disordered) | t-SNE + k-means clustering |
 |:--:|:--:|
 | ![t-SNE true label](images/tsne_true.png) | ![t-SNE k-means](images/tsne_kmeans.png) |
 
-- The left figure shows a clear phase separation.
+- The left figure shows an ambiguous phase separation.
 - The right figure shows the result of applying **k-means clustering** to the t-SNE embedded data.
 
 ---
 
 ## Autoencoder Latent Space
 
-We train a **basic Autoencoder** to compress spin configurations into a 2D latent space.
+We train a basic **Autoencoder** to compress spin configurations into a 2D latent space.
 
 | Autoencoder latent space 1 | Autoencoder latent space 2 |
 |:--:|:--:|
